@@ -80,4 +80,4 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV['RENDER_DB_URL'] %>
+  url: <%= ENV['DB_URL'] %>
